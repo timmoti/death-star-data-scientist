@@ -1,0 +1,44 @@
+body {
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-auto-rows: 1fr; */
+  /* grid-gap: 10px; */
+}
+
+.logo {
+  font: 'Lucinda Grande';
+  grid-column: 1/4;
+  height: 20vh;
+  margin: auto
+}
+
+.navigation {
+  grid-column: 1/4;
+  height: 10vh;
+  background-color: lightblue;
+}
+
+.mainContent {
+  grid-column: 1/3;
+  height: 60vh;
+}
+
+.sideContent {
+  grid-column: 3/4
+}
+
+.footer {
+  grid-column: 1/4;
+  height: 10vh;
+}
+
+/* .wrapper div:nth-child(even){
+  background: red;
+}
+
+.wrapper div:nth-child(odd){
+  background: green; */
+}
