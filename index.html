@@ -5,33 +5,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Grid</title>
+  <title>Death by Data</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div class="logo">
+        <a id='logo-title' href="www.deathbydata.com">Death by Data</a>
+    </div>
+    
+    <nav>
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle">
+      <div class="menu">
+        <a class = "active" href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
   <header>
-    <h1>Timothy Tan</h1>
+      <img src="/img/death-star-trooper-05.jpg" alt="me!" width=100px height=100px>
+    <h1>Nat Yhtomit</h1>
+    <p>
+      Coruscant. 
+      <a class='link' href="www.forced.in">ForcedIn</a>  .  
+      <a class='link' href="www.sithhub.com">Sithhub</a>
+    </p>
   </header>
-  <nav>
-    <a class = "active" href="#home">Home</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
   
   <main>
-    Main content
-
+    <ul class='boxes'>
+      <li class='left'>
+        <div class="boxes_text-wrapper">
+          <h2>Rebel Base Finder</h2>
+          <p>Pinpointing the exact location based on past data.</p>
+        </div>
+      </li>
+      <li class='center'>
+        <div class="boxes_text-wrapper">
+          <h2>Death Star Defense Calculator</h2>
+          <p>Calculating the probability of Death Star destruction.</p>
+        </div>
+      </li>
+      <li class='right'>
+        <div class="boxes_text-wrapper">
+          <h2>Vader Mood Detector</h2>
+          <p>Predicting when Lord Vader gets into force choke mood through Twookier sentiment analysis.</p>
+        </div>
+      </li>
+    </ul>
   </main>
-  
-  <aside>
-    Side Content
 
-  </aside>
-  
   <footer>
-      Footer
+    Imperial Productions . All Rights Reserved
   </footer>
   
   
