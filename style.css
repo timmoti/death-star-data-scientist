@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template: 40px 120px 400px 10px / repeat(3, minmax(90px, 1fr));
   min-height: 100%;
-  margin: 10px 50px;
+  margin: 10px 30px;
 }
 
 .logo {
